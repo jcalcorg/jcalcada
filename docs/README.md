@@ -1,6 +1,7 @@
 <!--
        Copyright 2017 IBM Corp All Rights Reserved
 
+Test
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
    You may obtain a copy of the License at
@@ -14,7 +15,7 @@
    limitations under the License.
 -->
 
-The *trader* service provides the UI for the *Portfolio* sample.  The main entry point is the **summary**
+TESTING The *trader* service provides the UI for the *Portfolio* sample.  The main entry point is the **summary**
 servlet, which lets you choose an operation and a portfolio to act upon.  It transfers control to other
 servlets, such as **addPortfolio**, **viewPortfolio**, and **addStock**, each of which transfers control back
 to **summary** when done.  The **viewPortfolio** and **addStock** servlets expect a query param named *owner*.
