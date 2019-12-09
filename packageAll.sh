@@ -1,4 +1,5 @@
 #!/bin/bash
+# a test
 
 helm package traderchart/
 helm package notificationchart/
